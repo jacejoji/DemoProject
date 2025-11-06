@@ -1,0 +1,39 @@
+Java Interface Practice Programs (with Operations):
+1. Java Interface Practice Program: Displaying Different Smartwatch Properties
+Utilizing interface methods like price(), screenSize(), battery() to display the properties of different smartwatches, and calculating the overall value based on these features.
+
+2. Java Interface Practice Program: Employee Attendance Tracking
+Using an interface to enforce common methods like markAttendance() and calculateLeaveBalance() for different employee types (e.g., Full-Time, Part-Time). The program tracks attendance and calculates leave balances, storing employee data in an ArrayList.
+
+3. Java Interface Practice Program: Shipping Cost Calculation
+Implementing an interface ShippingService with methods like calculateShippingCost() and getDeliveryTime(). Different shipping services (e.g., Standard, Express, International) implement these methods to calculate shipping costs based on distance and package weight, with the data stored in an ArrayList.
+
+Java Encapsulation Practice Programs (with Operations):
+1. Student Grade Management System
+This program uses encapsulation to store and manage student grades securely. The program allows adding grades, calculating average scores, and checking pass/fail status, with student data stored in an ArrayList.
+
+2. Employee Performance Evaluation
+Using encapsulation, employee performance data (ratings, bonuses) are kept private. Methods allow updating performance ratings and calculating yearly bonuses. The data for multiple employees is stored in an ArrayList and processed accordingly.
+
+3. Inventory Management with Price Updates
+Encapsulating product details such as name, price, and quantity in a Product class. The program allows updating prices and quantities while ensuring controlled access to product data, with the product inventory stored in an ArrayList.
+
+Java Inheritance Practice Programs (with Operations):
+1. Calculating Area for Different Geometric Shapes
+Using inheritance, this program models different shapes (Circle, Rectangle, Triangle) by extending a common Shape class. Each subclass calculates its area differently, and an ArrayList is used to store a collection of different shapes.
+
+2. Different Types of Bank Accounts
+Creating a base class BankAccount and extending it with different types of accounts (e.g., Savings, Checking). Each subclass implements specific interest rate calculations. The accounts are stored in an ArrayList and interest is calculated for all accounts.
+
+3. Vehicle Class Hierarchy for Fuel Efficiency
+Using inheritance, model various vehicle types (Car, Truck, Motorcycle) with a common base class Vehicle that calculates fuel efficiency. The program stores a list of different vehicles in an ArrayList and calculates the average fuel efficiency of all vehicles.
+
+Java Collections Practice Programs (with ArrayLists):
+1. Managing a Bookstore Inventory
+This program uses an ArrayList to store a collection of Book objects, each with attributes like title, author, and price. It allows operations like adding new books, updating prices, and calculating the total value of all books in stock.
+
+2. Customer Order Management System
+Using an ArrayList, this program stores customer orders and their details (items, quantities, prices). It calculates the total cost of an order and displays the order summary for each customer in the list.
+
+3. Movie Rental System
+This program uses an ArrayList to manage a collection of movies in a rental store. It allows adding new movies, renting out movies, and calculating the total rental earnings, with each movie having attributes like title, genre, and rental price.
