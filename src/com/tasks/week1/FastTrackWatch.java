@@ -1,4 +1,4 @@
-package com.example.tasksweek1;
+package com.tasks.week1;
 
 public class FastTrackWatch  implements SmartWatch{
 
