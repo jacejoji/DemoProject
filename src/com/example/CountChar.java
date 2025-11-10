@@ -6,7 +6,6 @@ public class CountChar {
 	public String toString() {
 		return "CountChar object";
 	}
-
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter some string:");
