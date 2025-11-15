@@ -14,6 +14,7 @@ public class Demo {
 		System.out.println("Printing something:");
 	}
 	public static void main(String[] args) {
+
 		Demo d=new Demo();
 		//Animal a=d::testeat;  ###instance method
 		//Animal a=Demo::new;  ###Constructor
