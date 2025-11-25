@@ -15,7 +15,7 @@ public class HashSetMain {
 		list.add(20);
 		list.add(10);
 		list.add(40);
-		HashSet set=new HashSet(list);
+		HashSet<Integer> set=new HashSet<Integer>(list);
 		System.out.println("original list: "+list);
 		System.out.println("HashSet: "+set);
 	}
